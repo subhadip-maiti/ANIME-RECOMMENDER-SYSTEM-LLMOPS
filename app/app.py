@@ -1,4 +1,6 @@
 import streamlit as st
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from pipeline.pipeline import AnimeRecommendationPipeline
 from dotenv import load_dotenv
 
